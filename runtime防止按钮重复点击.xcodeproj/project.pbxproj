@@ -15,6 +15,7 @@
 		4456B7481E89EF8200CA7BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4456B7461E89EF8200CA7BE3 /* LaunchScreen.storyboard */; };
 		4456B7531E89EF8300CA7BE3 /* runtime________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4456B7521E89EF8300CA7BE3 /* runtime________Tests.m */; };
 		4456B75E1E89EF8300CA7BE3 /* runtime________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4456B75D1E89EF8300CA7BE3 /* runtime________UITests.m */; };
+		4456B76D1E89EFBD00CA7BE3 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4456B76C1E89EFBD00CA7BE3 /* UIControl+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4456B7591E89EF8300CA7BE3 /* runtime防止按钮重复点击UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime防止按钮重复点击UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4456B75D1E89EF8300CA7BE3 /* runtime________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime________UITests.m"; sourceTree = "<group>"; };
 		4456B75F1E89EF8300CA7BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4456B76B1E89EFBD00CA7BE3 /* UIControl+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Extension.h"; sourceTree = "<group>"; };
+		4456B76C1E89EFBD00CA7BE3 /* UIControl+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4456B73C1E89EF8200CA7BE3 /* AppDelegate.m */,
 				4456B73E1E89EF8200CA7BE3 /* ViewController.h */,
 				4456B73F1E89EF8200CA7BE3 /* ViewController.m */,
+				4456B76B1E89EFBD00CA7BE3 /* UIControl+Extension.h */,
+				4456B76C1E89EFBD00CA7BE3 /* UIControl+Extension.m */,
 				4456B7411E89EF8200CA7BE3 /* Main.storyboard */,
 				4456B7441E89EF8200CA7BE3 /* Assets.xcassets */,
 				4456B7461E89EF8200CA7BE3 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				4456B7401E89EF8200CA7BE3 /* ViewController.m in Sources */,
 				4456B73D1E89EF8200CA7BE3 /* AppDelegate.m in Sources */,
 				4456B73A1E89EF8200CA7BE3 /* main.m in Sources */,
+				4456B76D1E89EFBD00CA7BE3 /* UIControl+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
